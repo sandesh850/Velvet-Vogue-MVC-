@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\views\\home\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\views\\home\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -22,24 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "VelvetVogue\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "VelvetVogue\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T10:11:52.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\Home\\Services.cshtml",
+              "RelativeDocumentMoniker": "VelvetVogue\\Views\\Home\\Services.cshtml",
+              "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\Home\\Services.cshtml",
+              "RelativeToolTip": "VelvetVogue\\Views\\Home\\Services.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T10:10:56.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "VelvetVogue\\wwwroot\\css\\site.css",
               "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\wwwroot\\css\\site.css",
               "RelativeToolTip": "VelvetVogue\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-10-15T06:55:40.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "VelvetVogue\\Controllers\\HomeController.cs",
@@ -47,18 +81,17 @@
               "RelativeToolTip": "VelvetVogue\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T06:37:31.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T06:37:31.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "VelvetVogue\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "VelvetVogue\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwG0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T05:58:41.08Z",
               "EditorCaption": ""

@@ -11,12 +11,12 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom  mb-3">
 
             <div class="container">
 
                 <!--brand name-->
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">VelvetVogue</a>
+                <a class="navbar-brand fw-bold" style="font-size:130%" asp-area="" asp-controller="Home" asp-action="Index">Velvet Vogue</a>
 
                 <!--Hamburger btn-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MainNav" aria-controls="navbarSupportedContent"
@@ -30,39 +30,38 @@
                     <ul class="navbar-nav ms-auto gap-3">
 
                         <li class="nav-item NavBarTextAlignment">
-                            <a class="text-decoration-none  NavBarTextColor" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="text-decoration-none  NavBarText" asp-area="" asp-controller="" asp-action="">INQUIRIES</a>
                         </li>
 
                         <li class="nav-item NavBarTextAlignment">
-                            <a class="text-decoration-none  NavBarTextColor" asp-area="" asp-controller="Home" asp-action="Services">Services</a>
+                            <a class="text-decoration-none  NavBarText" asp-area="" asp-controller="Home" asp-action="Services">ABOUT US</a>
                         </li>
 
                         <li class="nav-item NavBarTextAlignment">
-                            <a class="text-decoration-none NavBarTextColor NavBarTextAlignment" asp-area="" asp-controller="" asp-action="">About</a>
+                            <a class="text-decoration-none NavBarText NavBarTextAlignment" asp-area="" asp-controller="" asp-action="">CONTACT US</a>
                         </li>
 
-                        <li class="nav-item NavBarTextAlignment">
-                            <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="" asp-action="">Contact</a>
-                        </li>
-
-                        <!--Login || dropdown-->
+                       
+                        <!--Admin || dropdown-->
                         <li class="nav-item dropdown NavBarTextAlignment" style="">
                            
                            
-                            <a class="dropdown-toggle text-decoration-none" style="color:black;"  data-bs-toggle="dropdown"  >Admin</a>
+                            <a class="dropdown-toggle text-decoration-none NavBarText" style="color:black;" data-bs-toggle="dropdown">ADMIN</a>
 
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item NavBarTextColor" style="color:black">Login</a>
+                                    <a class="dropdown-item" style="color:black">Login</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item NavBarTextColor" style="color:black">Logout</a>
+                                    <a class="dropdown-item" style="color:black">Logout</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item NavBarTextColor" style="color:black">Login Configurations</a>
+                                    <a class="dropdown-item" style="color:black">Login Configurations</a>
                                 </li>
                             </ul>
                         </li>
+
+                        
 
                     </ul>
 
@@ -72,11 +71,43 @@
             </div>
 
         </nav>
+
+        <!--Second NavBar-->
+        <nav class="navbar box-shadow">
+
+            <div class="container d-flex justify-content-center">
+
+                <div class="">
+
+                    <ul class="navbar-nav d-flex flex-row gap-3">
+
+                        <li>
+                            <a asp-controller="" asp-action="" class="NavBarText nav-link">MENS</a>
+                        </li>
+
+                        <li>
+                            <a asp-controller="" asp-action="" class="NavBarText nav-link">WOMENS</a>
+                        </li>
+
+                        <li>
+                            <a asp-controller="" asp-action="" class="NavBarText nav-link">KIDS</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+        </nav>
+
+       
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
 
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
 
