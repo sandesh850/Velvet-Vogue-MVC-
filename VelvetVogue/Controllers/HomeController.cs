@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using VelvetVogue.Models;
+using VelvetVogue.Models.ViewModels;
 
 namespace VelvetVogue.Controllers
 {
@@ -18,7 +18,7 @@ namespace VelvetVogue.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Services()
         {
             return View();
         }

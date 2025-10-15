@@ -20,3 +20,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.NavBarTextColor{
+    color:black;
+}
+
+.NavBarTextAlignment {
+    padding-top: 2.7%
+}
