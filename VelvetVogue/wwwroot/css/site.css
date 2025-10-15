@@ -31,7 +31,13 @@ body {
     color:deepskyblue;
 }
 
-.NavBarTextAlignment {
-     padding-top: 2.7%
+.CategoryText:hover {
+    color: deepskyblue;
 }
+
+.NavBarTextAlignment {
+    padding-top: 2.7%;
+}
+
+
 
