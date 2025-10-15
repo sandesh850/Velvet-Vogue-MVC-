@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.Net All files\\Velvet vogue\\Velver Vogue (MVC)\\VelvetVogue\\VelvetVogue\\VelvetVogue.csproj": {}
+    "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\VelvetVogue.csproj": {}
   },
   "projects": {
-    "D:\\ASP.Net All files\\Velvet vogue\\Velver Vogue (MVC)\\VelvetVogue\\VelvetVogue\\VelvetVogue.csproj": {
+    "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\VelvetVogue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.Net All files\\Velvet vogue\\Velver Vogue (MVC)\\VelvetVogue\\VelvetVogue\\VelvetVogue.csproj",
+        "projectUniqueName": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\VelvetVogue.csproj",
         "projectName": "VelvetVogue",
-        "projectPath": "D:\\ASP.Net All files\\Velvet vogue\\Velver Vogue (MVC)\\VelvetVogue\\VelvetVogue\\VelvetVogue.csproj",
+        "projectPath": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\VelvetVogue.csproj",
         "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.Net All files\\Velvet vogue\\Velver Vogue (MVC)\\VelvetVogue\\VelvetVogue\\obj\\",
+        "outputPath": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
