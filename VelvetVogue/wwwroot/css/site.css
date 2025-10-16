@@ -39,7 +39,26 @@ body {
     padding-top: 2.7%;
 }
 
+.Mycard {
+    width: 22rem;
+    transition: transform 0.5s ease;
+}
 
+.Mycard:hover {
+
+     transform: scale(1.05);
+     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.brandsSize {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.brandsSize:hover{
+    transform:scale(1.05);
+}
 /*#carouselExampleIndicators .carousel-item img {
     width: 100%;
     height:100px;
