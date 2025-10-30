@@ -18,7 +18,7 @@ namespace VelvetVogue.Controllers
             return View();
         }
 
-        public IActionResult Services()
+        public IActionResult AboutUS()
         {
             return View();
         }

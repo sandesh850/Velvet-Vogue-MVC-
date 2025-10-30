@@ -72,6 +72,84 @@ body {
     object-fit: cover;
 }*/
 
+/*About us page*/
+.clsAboutUs {
+    font-size: 200%;
+    color: black;
+    margin-top: 15%;
+}
 
- 
+.paragraph {
+    font-size: 120%;
+    color: black;
+    margin-top: 5%;
+}
+
+.img {
+    width: 90%;
+    height: 50vh;
+    margin-bottom: 10%;
+    margin-top: 20%;
+    transition: 0.8s ease;
+    border-radius:25px;
+}
+
+.img:hover{
+    transform:scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+@media (max-width:324px) {
+
+    .img {
+        width: 200%;
+    }
+}
+
+@media (max-width:376px) {
+
+    .img {
+        width: 200%;
+    }
+}
+
+@media (max-width:426px) {
+
+    .img {
+        width: 200%;
+    }
+}
+
+
+/*Contact us page*/
+.ContactUS {
+    font-size: 55px;
+}
+
+.MclsContactUSRow02 {
+    padding-top: 0%;
+    margin-bottom: 15%;
+    width:100%;
+}
+
+.MyclsFontSizeOfSM {
+    font-size: 200%;
+}
+
+.MyclsLeftSideHeadeFonts {
+    font-size: 190%;
+}
+
+.MyclsComonFontsSizes {
+    font-size: 150%;
+}
+
+.MyAddItemsCard {
+    border: solid;
+    border-color: black;
+    border-radius: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+   
+}
 
