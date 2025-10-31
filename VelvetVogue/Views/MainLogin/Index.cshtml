@@ -1,0 +1,107 @@
+﻿@{
+    @model VelvetVogue.Models.ViewModels.MainLoginViewModel
+}
+
+<div class="container">
+
+    <!--row 01 -->
+    <div class="row CardAlignment">
+
+        <!--Border-->
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 Customborder">
+
+            <!--icon-->
+            <div class="row" style="padding-top:3%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center">
+                    <div>
+                        <img src="~/img/Login.png" /><br />
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--icon label-->
+            <div class="row" style="padding-top:1%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center">
+                    <div>
+
+                        <label style="color:slategray">LOGIN</label>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--Username-->
+            <div class="row" style="padding-top:7%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    @*  <div>
+                        <label class="fonts labelAligment"> Username</label>
+                         
+                    </div> *@
+
+                    <div class="TextBoxAligment">
+                        <input type="text" placeholder="Username" class="form-control TextboxesSize TextBoxBorderStyle" />
+                    </div>
+                </div>
+            </div>
+
+            <!--Password-->
+            <div class="row" style="padding-top:9%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    @* <div>
+                        <label class="fonts labelAligment">Password</label>
+
+                    </div> *@
+
+                    <div class="TextBoxAligment">
+                        <input type="password" placeholder="Password" class="form-control TextboxesSize TextBoxBorderStyle" />
+                    </div>
+                </div>
+            </div>
+
+            <!--Remember my login-->
+            <div class="row" style="padding-top:2%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                   
+                    <div class="TextBoxAligment">
+                        <input type="checkbox" />
+                        <label style="color:slategray">Remember my login details</label>
+                    </div>
+                </div>
+            </div>
+
+            <!--hr-->
+            <div class="row" style="padding-top:5%">
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 col-xxl-12">
+                    <hr />
+                </div>
+            </div>
+
+            <!--btnSave-->
+            <div class="row" style="padding-bottom:3%">
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 col-xxl-12">
+                    <div style="display:flex;justify-content:center">
+                        <button type="submit" class="btn btn-primary btnSave">LOGIN</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--I dont have a login-->
+            <div class="row" style="padding-bottom:3%">
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 col-xxl-12">
+
+                    <div style="display:flex;justify-content:center">
+                        <a asp-controller="AddNewLogin" class="text-decoration-none" style="color:gray">I dont have a login</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
