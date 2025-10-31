@@ -1,0 +1,99 @@
+﻿@{
+     @model VelvetVogue.Models.ViewModels.AddNewLoginViewModel 
+}
+
+<div class="container">
+
+    <!--row 01 -->
+    <div class="row CardAlignment">
+
+        <!--Border-->
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 Customborder">
+
+            <!--icon-->
+            <div class="row" style="padding-top:3%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center">
+                    <div>
+                       <img src="~/img/Login.png" /><br />
+                        
+                    </div>
+
+                   
+                </div>
+            </div>
+
+            <!--icon label-->
+            <div class="row" style="padding-top:1%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center">
+                    <div>
+                        
+                        <label style="color:slategray">Velvet Vogue</label>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--Username-->
+            <div class="row" style="padding-top:5%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                   @*  <div>
+                        <label class="fonts labelAligment"> Username</label>
+                         
+                    </div> *@
+
+                    <div class="TextBoxAligment">
+                        <input type="text" placeholder="Username" class="form-control TextboxesSize TextBoxBorderStyle" />
+                    </div>
+                </div>
+            </div>
+
+            <!--Password-->
+            <div class="row" style="padding-top:5%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    @* <div>
+                        <label class="fonts labelAligment">Password</label>
+
+                    </div> *@
+
+                    <div class="TextBoxAligment">
+                        <input type="password" placeholder="Password" class="form-control TextboxesSize TextBoxBorderStyle" />
+                    </div>
+                </div>
+            </div>
+
+            <!--Confirm Password-->
+            <div class="row" style="padding-top:5%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                   @*  <div>
+                        <label class="fonts labelAligment">Confirm Password</label>
+
+                    </div> *@
+
+                    <div class="TextBoxAligment">
+                        <input type="password" placeholder="Confirm Password" class="form-control TextboxesSize TextBoxBorderStyle" />
+                    </div>
+                </div>
+            </div>
+
+            <!--hr-->
+            <div class="row" style="padding-top:5%">
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 col-xxl-12">
+                    <hr />
+                </div>
+            </div>
+
+            <!--btnSave-->
+            <div class="row" style="padding-bottom:3%">
+                <div class="col-12 col-md-12 col-xl-12 col-lg-12 col-xxl-12">
+                    <div style="display:flex;justify-content:center">
+                        <button type="submit" class="btn btn-primary btnSave">Save</button>
+                    </div>
+                   
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
