@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\views\\mainlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\views\\mainlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\controllers\\mainlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\controllers\\mainlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\views\\checkingcurrentlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\views\\checkingcurrentlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\models\\viewmodels\\mainloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\models\\viewmodels\\mainloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\controllers\\checkingcurrentlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|solutionrelative:velvetvogue\\controllers\\checkingcurrentlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{283D7F3D-C834-46B3-813F-8B2820A7DA8C}|VelvetVogue\\VelvetVogue.csproj|d:\\asp.net all files\\velvet vogue\\velvet vogue (mvc)\\velvetvogue\\velvetvogue\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -34,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "VelvetVogue\\wwwroot\\css\\site.css",
@@ -47,55 +43,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainLoginController.cs",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Controllers\\MainLoginController.cs",
-              "RelativeDocumentMoniker": "VelvetVogue\\Controllers\\MainLoginController.cs",
-              "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Controllers\\MainLoginController.cs",
-              "RelativeToolTip": "VelvetVogue\\Controllers\\MainLoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:36:40.412Z",
-              "IsPinned": true,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\CheckingCurrentLogin\\Index.cshtml",
+              "RelativeDocumentMoniker": "VelvetVogue\\Views\\CheckingCurrentLogin\\Index.cshtml",
+              "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\CheckingCurrentLogin\\Index.cshtml",
+              "RelativeToolTip": "VelvetVogue\\Views\\CheckingCurrentLogin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T14:36:05.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLoginViewModel.cs",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Models\\ViewModels\\MainLoginViewModel.cs",
-              "RelativeDocumentMoniker": "VelvetVogue\\Models\\ViewModels\\MainLoginViewModel.cs",
-              "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Models\\ViewModels\\MainLoginViewModel.cs",
-              "RelativeToolTip": "VelvetVogue\\Models\\ViewModels\\MainLoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CheckingCurrentLoginController.cs",
+              "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Controllers\\CheckingCurrentLoginController.cs",
+              "RelativeDocumentMoniker": "VelvetVogue\\Controllers\\CheckingCurrentLoginController.cs",
+              "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Controllers\\CheckingCurrentLoginController.cs",
+              "RelativeToolTip": "VelvetVogue\\Controllers\\CheckingCurrentLoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:38:22.872Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-10-31T14:35:30.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\MainLogin\\Index.cshtml",
-              "RelativeDocumentMoniker": "VelvetVogue\\Views\\MainLogin\\Index.cshtml",
-              "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\MainLogin\\Index.cshtml",
-              "RelativeToolTip": "VelvetVogue\\Views\\MainLogin\\Index.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFQAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T13:37:23.828Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "VelvetVogue\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ASP.Net All files\\Velvet vogue\\Velvet Vogue (MVC)\\VelvetVogue\\VelvetVogue\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "VelvetVogue\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAgwJwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-30T11:26:34.369Z",
               "EditorCaption": ""

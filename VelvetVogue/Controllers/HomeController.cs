@@ -13,11 +13,13 @@ namespace VelvetVogue.Controllers
             _logger = logger;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
 
+        [HttpGet]
         public IActionResult AboutUS()
         {
             return View();

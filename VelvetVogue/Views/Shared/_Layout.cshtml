@@ -50,17 +50,17 @@
 
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" style="color:black" asp-controller="MainLogin">Login</a>
+                                    <a class="dropdown-item" style="color:black" asp-controller="MainLogin" asp-action="Index">Login</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" style="color:black">Logout</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" style="color:black" asp-controller="AddNewLogin">Add New Login</a>
+                                    <a class="dropdown-item" style="color:black" asp-controller="AddNewLogin" asp-action="Index">Add New Login</a>
                                    
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" style="color:black">Update Login Details</a>
+                                    <a class="dropdown-item" style="color:black" data-bs-toggle="modal" data-bs-target="#CurrentLoginDetails">Update Login Details</a>
 
                                 </li>
                             </ul>
@@ -109,6 +109,73 @@
 
        
     </header>
+
+    <!--Current Login details modal-->
+    <div class="modal fade" tabindex="-1" id="CurrentLoginDetails">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header d-flex justify-content-center">
+                    <div>
+                        <h5 class="modal-title fw-bold">CURRENT LOGIN DETAILS</h5>
+                    </div>
+                  
+                    @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
+                </div>
+
+                <form method="post" asp-controller="CheckingCurrentLogin" asp-action="Index">
+
+                    <div class="modal-body">
+
+                        <div class="container">
+
+                            <!--Current username-->
+                            <div class="row">
+
+                                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                    <div>
+                                        <label>Current Username</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="text" name="tbxCurrentUsername" class="form-control" placeholder="Current Username" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Current password-->
+                            <div class="row" style="padding-top:3%">
+
+                                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                    <div>
+                                        <label>Current Password</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="password" name="tbxCurrentPassword" class="form-control" placeholder="Current Password" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">OK</button>
+                    </div>
+
+                </form>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
 
     <div class="container-fluid p-0 m-0">
 
