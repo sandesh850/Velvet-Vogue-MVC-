@@ -1,5 +1,28 @@
-﻿
-@{
+﻿@{
+    @model VelvetVogue.Models.ViewModels.CheckingCurrentLoginViewModel
 }
 
-<h1>ok</h1>
+<div class="container">
+
+    <!--Success message-->
+    <div class="row" style="margin-top:3%">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <label style="font-size:110%;font-weight:bold;color:green">Success Message</label>
+        </div>
+    </div>
+
+    <!--Error message-->
+    <div class="row" style="margin-top:3%">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <label style="font-size:110%;font-weight:bold">Error Message</label>
+        </div>
+    </div>
+
+    <!--btnAddNewPassword-->
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <a class="btn btn-primary" asp-controller="UpdatingLoginDetails" asp-action="Index">Add New Lgin</a>
+        </div>
+    </div>
+
+</div>
