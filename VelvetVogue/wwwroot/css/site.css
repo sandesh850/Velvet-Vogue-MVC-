@@ -178,14 +178,14 @@ body {
 
 @media (max-width:426px) {
     .Customborder {
-        width: 95%
+        width: 95%;
     }
 }
 
 .CardAlignment{
 
    display:flex;
-   justify-content:center
+   justify-content:center;
 }
 
 .fonts{
@@ -194,11 +194,11 @@ body {
 }
 
 .TextboxesSize{
-    width:90%
+    width:90%;
 }
 
 .labelAligment{
-    padding-left:8%
+    padding-left:8%;
 }
 
 .TextBoxAligment{
@@ -216,5 +216,15 @@ body {
     width: 90%;
     border-radius: 25px;
     font-weight: bold;
-    font-size: 100%
-}   
+    font-size: 100%;
+}
+
+/*DetailsCard (gents / womens,kids)*/
+.card{
+    transition:0.5s
+}
+
+.card:hover {
+      transform: scale(1.05);
+      box-shadow: 8px 8px 16px rgba(0,0,0,0.2),-8px -8px 16px rgba(0,0,0,0.2)
+}
