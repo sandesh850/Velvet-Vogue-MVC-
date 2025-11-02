@@ -228,3 +228,23 @@ body {
       transform: scale(1.05);
       box-shadow: 8px 8px 16px rgba(0,0,0,0.2),-8px -8px 16px rgba(0,0,0,0.2)
 }
+
+/*Inquiry pag*/
+.fontsHeadings{
+    font-size:180%;
+    padding-left:5%;
+    font-weight:bold;
+}
+
+.fonts{
+    font-size:130%;
+    font-weight:inherit
+}
+
+.MyCard {
+    /* border-style:solid;
+    border-color:black;*/
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.2),-8px -8px 16px rgba(0,0,0,0.2);
+    padding-left:6%;
+}
