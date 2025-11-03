@@ -137,11 +137,13 @@ body {
 }
 
 .MyclsLeftSideHeadeFonts {
-    font-size: 190%;
+    font-size: 250%;
+    padding-left: 3%
 }
 
 .MyclsComonFontsSizes {
     font-size: 150%;
+   
 }
 
 .MyAddItemsCard {
@@ -151,6 +153,15 @@ body {
     padding-left: 3%;
     padding-right: 3%;
    
+}
+
+.MycardOfContactUs {
+
+    width:100%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.2),-8px -8px 16px rgba(0,0,0,0.2);
 }
 
 /*Add new login page*/
