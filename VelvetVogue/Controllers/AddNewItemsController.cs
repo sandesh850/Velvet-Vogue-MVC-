@@ -1,12 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using VelvetVogue.Models.ViewModels;
 
 namespace VelvetVogue.Controllers
 {
     public class AddNewItemsController : Controller
     {
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            return View(new AddNewItemsViewModel());
         }
     }
 }

@@ -263,3 +263,29 @@ html,body{
     box-shadow: 8px 8px 16px rgba(0,0,0,0.2),-8px -8px 16px rgba(0,0,0,0.2);
     padding-left:6%;
 }
+
+/*address Items page*/
+.AddItemCard{
+
+    border-radius:10px;
+    border-color:lightgray;
+    border-style:solid;
+    border-width:1px;
+
+    padding-left:3%;
+    padding-top:3%;
+    padding-right:3%;
+    padding-bottom:3%
+
+}
+
+.fonts{
+    font-size:100%;
+    font-weight:bold;
+}
+
+/*.form-control{
+
+    background-color:lightgrey
+
+}*/

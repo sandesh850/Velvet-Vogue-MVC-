@@ -1,7 +1,218 @@
-﻿
-
-@{
-
+﻿@{
+    @model VelvetVogue.Models.ViewModels.AddNewItemsViewModel
 }
 
-<h1>Add new</h1>
+<div class="container">
+
+    <!--row 01-->
+    <div class="row" style="margin-top:3%">
+
+        <!--left side-->
+        <div class="col-12 col-md-7 col-xl-7 col-xxl-7 col-lg-7">
+
+            <div class="AddItemCard">
+
+                <div>
+                    <label style="font-weight:bold;font-size:110%">Basic Information</label>
+                </div>
+
+                <div>
+                    <label style="color:slategray;font-size:100%">Essential product details</label>
+                </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Product Name</label>
+                </div>
+                <div style="padding-top:1%">
+                   <input type="text" class="form-control" placeholder="Full Name" />
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div style="padding-top:4%">
+                            <label class="fonts">SKU</label>
+                        </div>
+                        <div style="padding-top:1%">
+                            <input type="text" class="form-control" placeholder="e.g., TSH-BLK-0001" />
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div style="padding-top:4%">
+                            <label class="fonts">Brand</label>
+                        </div>
+                        <div style="padding-top:1%">
+                            <input type="text" class="form-control" placeholder="Your Brand" />
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Description</label>
+                </div>
+                <div style="padding-top:1%">
+                    <textarea class="form-control" rows="4" style="resize:none" placeholder="Describe the product..."></textarea>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--right side-->
+        <div class="col-12 col-md-5 col-xl-5 col-xxl-5 col-lg-5">
+
+            <div class="AddItemCard">
+
+                <div>
+                    <label style="font-weight:bold;font-size:110%">Pricing</label>
+                </div>
+
+                <div>
+                    <label style="color:slategray;font-size:100%">Product pricing details</label>
+                </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Selling Price</label>
+                </div>
+                <div style="padding-top:1%">
+                    <input type="text" class="form-control" placeholder="0.00" />
+                </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Compare at Price</label>
+                </div>
+                <div style="padding-top:1%">
+                    <input type="text" class="form-control" placeholder="0.00" />
+                </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Cost Per Item</label>
+                </div>
+                <div style="padding-top:1%">
+                    <input type="text" class="form-control" placeholder="0.00" />
+                </div>
+
+              
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--row 02-->
+    <div class="row" style="margin-top:3%">
+
+        <!--left side-->
+        <div class="col-12 col-md-7 col-xl-7 col-xxl-7 col-lg-7">
+
+            <div class="AddItemCard">
+
+                <div>
+                    <label style="font-weight:bold;font-size:110%">Category & Classification</label>
+                </div>
+
+                <div>
+                    <label style="color:slategray;font-size:100%">Product categorization</label>
+                </div>
+
+               <div class="row" style="padding-top:3%">
+
+                   <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                       <div>
+                            <label class="fonts">Category</label>
+                       </div>
+                        <div style="padding-top:1%">
+                            <select class="form-select">
+                               <option selected disabled>Select</option>
+                               <option>Botttom</option>
+                               <option>Outerwear</option>
+                               <option>Shoe</option>
+                           </select>
+                        </div>
+                   </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <div>
+                            <label class="fonts">Subcategory</label>
+                        </div>
+                        <div style="padding-top:1%">
+                            <select class="form-select">
+                                <option selected disabled>Select</option>
+                                <option>Shirt</option>
+                                <option>Jeans</option>
+                                <option>Pans</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <div>
+                            <label class="fonts">Gender</label>
+                        </div>
+                        <div style="padding-top:1%">
+                            <select class="form-select">
+                                <option selected disabled>Select</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Kds</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+
+               </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Material</label>
+                </div>
+                <div style="padding-top:1%">
+                    <input type="text" class="form-control" placeholder="e.g., Cotton" />
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--right side-->
+        <div class="col-12 col-md-5 col-xl-5 col-xxl-5 col-lg-5">
+
+            <div class="AddItemCard">
+
+                <div>
+                    <label style="font-weight:bold;font-size:110%">Pricing</label>
+                </div>
+
+                <div>
+                    <label style="color:slategray;font-size:100%">Product pricing details</label>
+                </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Selling Price</label>
+                </div>
+                <div style="padding-top:1%">
+                    <input type="text" class="form-control" placeholder="0.00" />
+                </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Compare at Price</label>
+                </div>
+                <div style="padding-top:1%">
+                    <input type="text" class="form-control" placeholder="0.00" />
+                </div>
+
+                <div style="padding-top:4%">
+                    <label class="fonts">Cost Per Item</label>
+                </div>
+                <div style="padding-top:1%">
+                    <input type="text" class="form-control" placeholder="0.00" />
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
