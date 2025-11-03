@@ -21,6 +21,10 @@ body {
   margin-bottom: 60px;
 }
 
+html,body{
+    overflow-x:hidden
+}
+
 .NavBarText{
     color:black;
     font-size:100%;
@@ -167,11 +171,11 @@ body {
 /*Add new login page*/
 .Customborder {
     border-radius: 25px;
-    /*border-style:solid;*/
-    /*border-color:none;*/
+    /*  border-style: solid;
+    border-color: none;*/
     width: 40%;
     margin-top: 4%;
-    box-shadow: 8px 8px 16px rgba(0,0,0,0.3), -8px -8px 16px rgba(0,0,0,0.3)
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.2),-8px -8px 16px rgba(0,0,0,0.2);
 }
 
 @media (max-width:321px){

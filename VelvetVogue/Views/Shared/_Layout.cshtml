@@ -55,12 +55,17 @@
                                 <li>
                                     <a class="dropdown-item" style="color:black">Logout</a>
                                 </li>
+
+                                <li>
+                                    <a class="dropdown-item" style="color:black" asp-controller="AddNewItems" asp-action="Index">Add New Items</a>
+                                </li>
+
                                 <li>
                                     <a class="dropdown-item" style="color:black" asp-controller="AddNewLogin" asp-action="Index">Add New Login</a>
                                    
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" style="color:black" data-bs-toggle="modal" data-bs-target="#CurrentLoginDetails">Update Login Details</a>
+                                    <a class="dropdown-item" style="color:black" data-bs-toggle="modal" data-bs-target="#CurrentLoginDetails">Update Login</a>
 
                                 </li>
                             </ul>
@@ -121,7 +126,7 @@
                     <div>
                         <h5 class="modal-title fw-bold">CURRENT LOGIN DETAILS</h5>
                     </div>
-                  
+
                     @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
                 </div>
 
@@ -168,7 +173,7 @@
                     </div>
 
                 </form>
-                
+
 
             </div>
 
