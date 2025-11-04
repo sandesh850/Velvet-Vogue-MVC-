@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VelvetVogue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db196631b3fab189ca0351cef2103e91c5aa9c43")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ff31eef7cf55ae5b9a4f6ba8e1699bc79a87b3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("VelvetVogue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VelvetVogue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

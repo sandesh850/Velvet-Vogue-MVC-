@@ -289,3 +289,24 @@ html,body{
     background-color:lightgrey
 
 }*/
+
+/*add menuitem page*/
+.selected {
+    background-color: #000 !important; /* black background */
+    color: #fff !important; /* white text */
+    border-color: #000 !important; /* black border */
+}
+
+.colorCircle{
+    border-style:solid;
+    border-radius:30px;
+    width:30px;
+    height:30px;
+}
+
+.MainColorbtn {
+    width: 85%;
+    border-color: lightgray;
+    background-color: white;
+    border-radius: 10px
+}

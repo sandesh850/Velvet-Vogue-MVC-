@@ -1,4 +1,21 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿
 
-// Write your JavaScript code.
+// Add Item page
+$(document).ready(function () {
+
+    $('.btn.btn-outline-secondary').on('click', function () {
+
+        // Toggle selected class
+        $(this).toggleClass('selected');
+
+        // Get all selected sizes
+        let selectedSizes = [];
+        $('.btn.btn-outline-secondary.selected').each(function () {
+            selectedSizes.push($(this).text().trim());
+        });
+
+        // Update hidden input
+        $('#selectedSizes').val(selectedSizes.join(','));
+    });
+
+});

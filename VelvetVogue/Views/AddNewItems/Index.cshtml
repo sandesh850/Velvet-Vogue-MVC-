@@ -86,6 +86,10 @@
                 <div style="padding-top:1%">
                     <input type="text" class="form-control" placeholder="0.00" />
                 </div>
+                <div style="padding-top:1%">
+                    <label style="color:slategray;font-size:95%">Original price for showing discounts</label>
+                </div>
+
 
                 <div style="padding-top:4%">
                     <label class="fonts">Cost Per Item</label>
@@ -93,7 +97,9 @@
                 <div style="padding-top:1%">
                     <input type="text" class="form-control" placeholder="0.00" />
                 </div>
-
+                <div style="padding-top:1%">
+                    <label style="color:slategray;font-size:95%">For profit margin calculation</label>
+                </div>
               
 
             </div>
@@ -156,7 +162,7 @@
                                 <option selected disabled>Select</option>
                                 <option>Male</option>
                                 <option>Female</option>
-                                <option>Kds</option>
+                                <option>Kids</option>
                                 
                             </select>
                         </div>
@@ -181,36 +187,206 @@
             <div class="AddItemCard">
 
                 <div>
-                    <label style="font-weight:bold;font-size:110%">Pricing</label>
+                    <label style="font-weight:bold;font-size:110%">Inventory</label>
                 </div>
 
                 <div>
-                    <label style="color:slategray;font-size:100%">Product pricing details</label>
+                    <label style="color:slategray;font-size:100%">Stock management</label>
                 </div>
 
                 <div style="padding-top:4%">
-                    <label class="fonts">Selling Price</label>
+                    <label class="fonts">Stock Quantity</label>
                 </div>
                 <div style="padding-top:1%">
-                    <input type="text" class="form-control" placeholder="0.00" />
+                    <input type="text" class="form-control" placeholder="0" />
                 </div>
 
                 <div style="padding-top:4%">
-                    <label class="fonts">Compare at Price</label>
+                    <label class="fonts">Low Stock Alert</label>
                 </div>
                 <div style="padding-top:1%">
-                    <input type="text" class="form-control" placeholder="0.00" />
-                </div>
-
-                <div style="padding-top:4%">
-                    <label class="fonts">Cost Per Item</label>
+                    <input type="text" class="form-control" placeholder="0" />
                 </div>
                 <div style="padding-top:1%">
-                    <input type="text" class="form-control" placeholder="0.00" />
+                    <label style="color:slategray;font-size:95%">Get notified when stock is low</label>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--row 03-->
+    <div class="row" style="margin-top:3%">
+
+        <!--left side-->
+        <div class="col-12 col-md-7 col-xl-7 col-xxl-7 col-lg-7">
+
+            <div class="AddItemCard">
+
+                <div>
+                    <label style="font-weight:bold;font-size:110%">Variants</label>
                 </div>
 
+                <div>
+                    <label style="color:slategray;font-size:100%">Available sizes and colors</label>
+                </div>
+
+                <div class="row" style="padding-top:3%">
+
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <div>
+                            <label class="fonts">Sizes</label>
+                        </div>
+                        <div class="d-flex gap-2 flex-wrap" style="padding-top:1%;" id="sizesContainer">
+                            <button type="button" class="btn btn-outline-secondary" style="font-size:109%;color:black">XS</button>
+                            <button type="button" class="btn btn-outline-secondary" style="font-size:109%;color:black">S</button>
+                            <button type="button" class="btn btn-outline-secondary" style="font-size:109%;color:black">M</button>
+                            <button type="button" class="btn btn-outline-secondary" style="font-size:109%;color:black">L</button>
+                            <button type="button" class="btn btn-outline-secondary" style="font-size:109%;color:black">XL</button>
+                            <button type="button" class="btn btn-outline-secondary" style="font-size:109%;color:black">XXL</button>
+                        </div>
+                       
+                        <!-- Hidden input to send selected sizes to backend -->
+                        <input type="hidden" id="selectedSizes" name="selectedSizes">
+                    </div>
+
+                </div>
+
+                <!--color selection row-->
+                <div class="row" style="padding-top:3%">
+
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <div>
+                            <label class="fonts">Colors</label>
+                        </div>
+                        <div style="padding-top:1%;" id="colorContainer">
+
+                            <!--color button row-->
+                            <div class="row">
+
+                                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="padding-top:1%">
+
+                                    <!--btn-->
+                                    <div class="d-flex align-items-center btn btn-secondary MainColorbtn gap-2">
+                                        <!--circle-->
+                                        <div class="colorCircle" style="background-color:white;border-color:lightgray"> </div>
+                                        <span style="color:black">White</span>
 
 
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="padding-top:1%">
+
+                                    <!--btn-->
+                                    <div class="d-flex align-items-center btn btn-secondary MainColorbtn gap-2">
+                                        <!--circle-->
+                                        <div class="colorCircle" style="background-color:black;border-color:lightgray"> </div>
+                                        <span style="color:black">Black</span>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="padding-top:1%">
+
+                                    <!--btn-->
+                                    <div class="d-flex align-items-center btn btn-secondary MainColorbtn gap-2">
+                                        <!--circle-->
+                                        <div class="colorCircle" style="background-color:blue;border-color:lightgray"> </div>
+                                        <span style="color:black">Blue</span>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="padding-top:1%">
+
+                                    <!--btn-->
+                                    <div class="d-flex align-items-center btn btn-secondary MainColorbtn gap-2">
+                                        <!--circle-->
+                                        <div class="colorCircle" style="background-color:red;border-color:lightgray"> </div>
+                                        <span style="color:black">Red</span>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="padding-top:1%">
+
+                                    <!--btn-->
+                                    <div class="d-flex align-items-center btn btn-secondary MainColorbtn gap-2">
+                                        <!--circle-->
+                                        <div class="colorCircle" style="background-color:green;border-color:lightgray"> </div>
+                                        <span style="color:black">Green</span>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="padding-top:1%">
+
+                                    <!--btn-->
+                                    <div class="d-flex align-items-center btn btn-secondary MainColorbtn gap-2">
+                                        <!--circle-->
+                                        <div class="colorCircle" style="background-color:gray;border-color:lightgray"> </div>
+                                        <span style="color:black">Gray</span>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3" style="padding-top:1%">
+
+                                    <!--btn-->
+                                    <div class="d-flex align-items-center btn btn-secondary MainColorbtn gap-2">
+                                        <!--circle-->
+                                        <div class="colorCircle" style="background-color:pink;border-color:lightgray"> </div>
+                                        <span style="color:black">Pink</span>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Hidden input to send selected sizes to backend -->
+                        <input type="hidden" id="selectedColors" name="selectedColors">
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+        </div>
+
+
+        <!--right side-->
+        <div class="col-12 col-md-5 col-xl-5 col-xxl-5 col-lg-5">
+
+            <div class="AddItemCard">
+
+                <div>
+                    <label style="font-weight:bold;font-size:110%">Tags</label>
+                </div>
+
+                <div>
+                    <label style="color:slategray;font-size:100%">Add search tags</label>
+                </div>
+
+                
             </div>
         </div>
 
